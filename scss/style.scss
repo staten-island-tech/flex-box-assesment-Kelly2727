@@ -1,0 +1,25 @@
+
+$colors: (primary: #880E4F);
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+$padding: 1.3rem;
+body {
+    background-color: rgba(color(primary),0.4);
+} 
+
+.flex-parent {
+    background-color: #FF80AB;
+    height: 60vh;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    display: flex; }
+
+.flex-child{
+    background-color: #FF8A80;
+    height: 20vh;
+    margin: 10px;
+    color: #B71C1C;
+}
+
