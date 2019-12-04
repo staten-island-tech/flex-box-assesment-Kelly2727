@@ -1,0 +1,27 @@
+body {
+  background-color: rgba(136, 14, 79, 0.4);
+}
+
+.flex-parent {
+  background-color: #FF80AB;
+  height: 60vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  flex-direction: column-reverse;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-child {
+  background-color: #FF8A80;
+  height: 20vh;
+  margin: 10px;
+  color: #B71C1C;
+}
+/*# sourceMappingURL=style.css.map */
