@@ -1,3 +1,5 @@
+@import"./variable.scss";
+@import"./images.scss";
 
 $colors: (
     primary: #AD1457,
@@ -26,5 +28,9 @@ body {
     height: 20vh;
     margin: 10px;
     color: #B71C1C;
+}
+
+#flex-grow-1{
+    flex-grow:1;
 }
 

@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(136, 14, 79, 0.4);
+  background-color: rgba(173, 20, 87, 0.4);
 }
 
 .flex-parent {
@@ -23,5 +23,11 @@ body {
   height: 20vh;
   margin: 10px;
   color: #B71C1C;
+}
+
+#flex-grow-1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 /*# sourceMappingURL=style.css.map */
