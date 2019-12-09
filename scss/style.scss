@@ -1,36 +1,57 @@
 @import"./variable.scss";
-@import"./images.scss";
+@import "./_header.scss";
+/*@import"./images.scss";*/
 
-$colors: (
+/*$colors: (
     primary: #AD1457,
     darkprimary: #880E4F,
     lightprimary: #FF80AB,
     primary-color-text: #FFFFFF,
      );
+
 @function color($color-name){
     @return map-get($colors, $color-name);
 }
-$padding: 1.3rem;
+$padding: 1.5rem;
 body {
     background-color: rgba(color(primary),0.4);
-} 
+} */
+.images {
+    display: flex;}
+
+.img {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vh;
+    height: 20vh;
+    width: 30vh;
+}
+
+body {
+    background-color: #AD1457;
+    height: 62.5%;}
+
+h1 {
+    color:#FFFFFF;}
 
 .flex-parent {
     background-color: #FF80AB;
     height: 60vh;
     flex-direction: column;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    display: flex; }
+    justify-content: space-between;
+    display: flex; 
+    font-size: 300% }
 
 .flex-child{
     background-color: #FF8A80;
     height: 20vh;
     margin: 10px;
-    color: #B71C1C;
-}
+    color: #B71C1C;}
 
 #flex-grow-1{
-    flex-grow:1;
-}
+    flex-grow:1;}
+
+#flex-grow-2 {
+    flex-grow: 2;}
 
