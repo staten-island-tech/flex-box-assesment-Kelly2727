@@ -9,7 +9,7 @@ html {
 
 .header {
   background-color: rgb(255, 40, 111);
-  height: 27vh;
+  height: 90vh;
 }
 
 .images {
@@ -30,13 +30,13 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 5vh;
-  height: 20vh;
-  width: 30vh;
+  margin: 3vh;
+  height: 30vh;
+  width: 40vh;
 }
 
 .flex-parent {
-  background-color: #FF80AB;
+  background-color: #B71C1C;
   height: 60vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -45,16 +45,31 @@ html {
   flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 300%; 
+  font-size: 250%; 
 }
+ 
+.h1 { 
+  font-size: 500%;
+  justify-content: space around;
+  justify-content: center;
+}
+
+
+.flex-sm {
+  -webkit-box-direction: normal;
+  justify-content: center;
+  display: flex; 
+
+ }
+
 
 .flex-child {
   background-color: #FF8A80;
-  height: 20vh;
+  height: 70vh;
   margin: 10px;
   color: #B71C1C;
 }
