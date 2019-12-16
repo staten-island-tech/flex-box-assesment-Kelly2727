@@ -53,11 +53,11 @@ html {
   font-size: 300%; 
 }
  
-.h1 { 
+/*.h1 { 
   font-size: 50%;
   justify-content: space around;
   justify-content: center;
-}
+}*/
 
 
 .flex-sm {
@@ -67,6 +67,12 @@ html {
 
  }
 
+ .flex-smm {
+  -webkit-box-direction: normal;
+  justify-content: center;
+  display: flex; 
+
+ }
 
 .flex-child {
   background-color: #FF8A80;
