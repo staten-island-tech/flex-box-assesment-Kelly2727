@@ -7,16 +7,17 @@ html {
   box-sizing: 0rem;
 }
 
-.header {
+/*.header {
   background-color: rgb(255, 40, 111);
   height: 90vh;
-}
+}*/
 
 .images {
   /*background-color: rgba(color(darkprimary), 0.4);*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
 }
 
 .img {
@@ -37,8 +38,8 @@ html {
 
 .flex-parent {
   background-color: #B71C1C;
-  height: 50vh;
-  width: 100vh;
+  height: 70vh;
+  width: 105vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -47,16 +48,28 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-around;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 300%; 
+  font-size: 250%; 
 }
  
-/*.h1 { 
-  font-size: 50%;
+.h1 { 
+  font-size: 500%;
+  height: 50vh;
+  width: 100vh;
   justify-content: space around;
   justify-content: center;
+}
+
+/*.h2{
+  font-size: 50vh;
+  height: 50vh;
+  width: 100vh;
+  justify-content: space around;
+  justify-content: center;
+
 }*/
 
 
@@ -64,24 +77,21 @@ html {
   -webkit-box-direction: normal;
   justify-content: center;
   display: flex; 
-
- }
-
- .flex-smm {
-  -webkit-box-direction: normal;
-  justify-content: center;
-  display: flex; 
-
+  height: 10vh;
+  margin: 1vh;
+  font-size: 5vh
  }
 
 .flex-child {
   background-color: #FF8A80;
-  height: 10vh;
-  margin: 10px;
+  height: 20vh;
+  margin: 1vh;
   color: #B71C1C;
+  text-align: justify;
+  justify-content: center;
   
 }
- 
+
 
 #flex-grow-1 {
   -webkit-box-flex: 1;
